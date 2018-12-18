@@ -1,0 +1,5 @@
+#!/bin/bash
+cd code/GitHub/BowlPool-V2
+. venv/bin/activate
+export FLASK_APP=test.py
+flask run
